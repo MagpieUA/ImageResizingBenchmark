@@ -1,0 +1,42 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - Kingfisher (5.1.1)
+  - Nuke (7.5.2)
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.0)
+  - Nuke
+  - PINRemoteImage
+  - SDWebImage (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FLAnimatedImage
+    - Kingfisher
+    - Nuke
+    - PINCache
+    - PINRemoteImage
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Kingfisher: 2558186963e5be42d98c5b110ccb3130148b77e4
+  Nuke: 0350d346a688426e8f2331253ef28dc2fc4f6178
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+
+PODFILE CHECKSUM: a59c2792f2be7ad0065e21365032836a1c24f737
+
+COCOAPODS: 1.5.3
